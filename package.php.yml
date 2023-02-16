@@ -1,0 +1,15 @@
+name: Punch
+version: 1.0.0
+description: Notes app
+deps:
+  jphp-core: '*'
+  jphp-zend-ext: '*'
+  jphp-runtime: '*'
+  jphp-gui-ext: '*'
+  jphp-gui-jfx-win: '*'
+plugins:
+- App
+sources:
+- src
+includes:
+- bootstrap.php
