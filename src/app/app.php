@@ -6,7 +6,10 @@ use app\boards\mainViewBoard;
 
 class app
 {
+    public $mainViev;
     public function launch() {
-        UXApplication::runLater(function () { $mainViev = new mainViewBoard(); });
+        UXApplication::runLater(function () { 
+            $this->mainViev = new mainViewBoard(); 
+        });
     }
 }
