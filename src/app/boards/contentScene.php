@@ -1,7 +1,7 @@
 <?php
 namespace app\boards;
 
-use php\gui\{UXForm, shape\UXRectangle, layout\UXFlowPane};
+use php\gui\{UXForm};
 
 class contentScene
 {

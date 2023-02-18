@@ -13,3 +13,5 @@ class app
         });
     }
 }
+
+//this app is cursed and shitcoded 🤭
