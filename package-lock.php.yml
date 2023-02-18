@@ -47,3 +47,9 @@ dependencies:
       sha256: b4249178529a612c96dd63268bfb89694cb478ff0dc035a9146adde220e68407
       size: 10627054
       repo: http://api.develnext.org
+  dn-app-framework:
+    version: 2.0.2
+    info:
+      sha256: 6f27e96dd3d06911fe8e9555fa4142f8fa53ec4121eeef0807e473d27f99cf08
+      size: 803542
+      repo: http://api.develnext.org
