@@ -4,7 +4,9 @@ namespace app\boards;
 
 use php\gui\{UXForm, shape\UXRectangle, layout\UXFragmentPane, layout\UXFlowPane};
 use behaviour\custom\DraggingFormBehaviour;
-use php\gui\paint\UXPaint;
+use php\gui\paint\UXColor;
+use php\gui\paint\UXLinearGradient;
+
 use app\boards\contentScene;
 
 class mainViewBoard
@@ -24,9 +26,11 @@ class mainViewBoard
         $this->boardRect->size = $this->viewSize;
         $this->boardRect->arcHeight = 64;
         $this->boardRect->arcWidth = 64;
+        $this->boardRect->smooth = true;
         $this->boardRect->strokeType = "INSIDE";
         $this->boardRect->strokeWidth = 2;
-        $this->boardRect->style = "-fx-fill: linear-gradient(to top, #0d0d0d, black); -fx-stroke: #ffffff0e"; //ugly. idk why ->fill and ->strokeColor not working
+        $this->boardRect->fill = UXLinearGradient::of("linear-gradient(#000000, #0d0d0d)");
+        $this->boardRect->stroke = UXColor::of("#ffffff0e");
         $this->view->add($this->boardRect);
 
         $this->fragment = new UXFragmentPane();
@@ -52,8 +56,9 @@ class mainViewBoard
         $rectIndicator->arcWidth = 4;
         $rectIndicator->arcHeight = 4;
         $rectIndicator->strokeWidth = 0;
-        $rectIndicator->style = "-fx-fill: #ffffff80"; //another ugly thing
+        $rectIndicator->fill = UXColor::of("#ffffff80");
         $flowPane->add($rectIndicator);
 
     }
 }
+
