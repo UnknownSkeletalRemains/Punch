@@ -27,7 +27,7 @@ class mainViewBoard
         $indicator = new indicator();
         $this->view->add($indicator->indicator);
         
-        $contentScene = new contentScene();
+        $contentScene = new contentScene($this->viewSize);
         $this->fragment->applyFragment($contentScene->view);
         
        
