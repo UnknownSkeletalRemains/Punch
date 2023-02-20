@@ -3,11 +3,12 @@ namespace app\ui;
 
 use php\gui\shape\UXRectangle;
 use php\gui\paint\{UXColor, UXLinearGradient};
-
+use app\core\logger;
 class viewBackground
 {
     public $viewBackground;
     public function __construct($size) {
+        logger::log(get_class().' Created');
         $this->viewBackground = new UXRectangle();
         $this->viewBackground->size = $size;
         $this->viewBackground->arcHeight = 64;

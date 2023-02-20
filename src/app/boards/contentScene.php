@@ -4,11 +4,13 @@ namespace app\boards;
 use php\gui\{UXForm, UXLabel, text\UXFont};
 use php\gui\layout\UXFlowPane;
 use php\gui\paint\{UXColor, UXLinearGradient};
-
+use app\core\font;
+use app\core\logger;
 class contentScene
 {
     public $view;
     public function __construct($viewSize) {
+        logger::log(get_class().' Created');
         $this->view = new UXForm();
         $this->view->size = $viewSize;
         $this->view->layout->backgroundColor = "TRANSPARENT";
@@ -31,5 +33,8 @@ class contentScene
         $label->textColor = UXColor::of("#ffffff");
         $label->text = "Punch";
         $flowPane->add($label);
+
+        //$font = new font();
+        //$font->font();   
     }
 }

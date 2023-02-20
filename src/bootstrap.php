@@ -1,3 +1,3 @@
 <?php
-$app = new \app\app();
+$app = new \app\application();
 $app->launch();

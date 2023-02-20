@@ -4,11 +4,12 @@ namespace app\boards;
 use php\gui\{UXForm, layout\UXFragmentPane};
 use app\ui\{viewBackground, indicator};
 use app\boards\{contentScene};
-
+use app\core\logger;
 class mainViewBoard
 {
     public $view, $viewSize = [256, 512], $boardRect, $fragment;
     public function __construct() {
+        logger::log(get_class().' Created');
         $this->view = new UXForm();
         $this->view->title = "Punch";
         $this->view->size = $this->viewSize;
@@ -28,9 +29,7 @@ class mainViewBoard
         $this->view->add($indicator->indicator);
         
         $contentScene = new contentScene($this->viewSize);
-        $this->fragment->applyFragment($contentScene->view);
-        
-       
+        $this->fragment->applyFragment($contentScene->view);       
     }
 }
 
