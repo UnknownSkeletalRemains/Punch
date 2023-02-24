@@ -8,10 +8,10 @@ notes app
    - Java for Mac - https://download.bell-sw.com/java/11.0.5+11/bellsoft-jdk11.0.5+11-macos-amd64.zip
    - Java for Linux - https://download.bell-sw.com/java/11/bellsoft-jdk11-linux-amd64.tar.gz
 
-2. Open terminal and run the command:
+2. Open terminal in project folder and run the command:
 ```bash
 jppm app:build
 ```
-   The build of app will be in the `/build` directory.
+   The build of app will be in the `/build` directory
    
 3. Thats all 😊
