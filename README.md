@@ -7,7 +7,7 @@ notes app
    - Java for Windows - https://download.bell-sw.com/java/11/bellsoft-jdk11-windows-amd64.zip
    - Java for Mac - https://download.bell-sw.com/java/11.0.5+11/bellsoft-jdk11.0.5+11-macos-amd64.zip
    - Java for Linux - https://download.bell-sw.com/java/11/bellsoft-jdk11-linux-amd64.tar.gz
-2. Prepare IDE dependencies:
+2. Open terminal and run the command:
 ```bash
 jppm app:build
 ```
