@@ -2,7 +2,7 @@
 
 Application for taking quick sticky notes.
 
-## Supported Platforms:
+## Supported platforms:
 
 * **win** - windows
 * **linux** - any linux distribution
