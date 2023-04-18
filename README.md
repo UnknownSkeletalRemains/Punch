@@ -2,6 +2,12 @@
 
 Application for taking quick sticky notes.
 
+## Supported Platforms:
+
+* **win** - windows
+* **linux** - any linux distribution
+* **mac** -  MacOS (OS X)
+
 ## How to build?
 
 1. Download & Install **Java Development Kit 11** and the last version of [JPPM](https://github.com/jphp-group/jphp/releases).
