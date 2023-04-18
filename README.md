@@ -1,5 +1,6 @@
 # Punch
-notes app
+
+Application for taking quick sticky notes.
 
 ## How to build?
 
