@@ -1,5 +1,6 @@
 # Punch
-![Frame 2](https://user-images.githubusercontent.com/29959059/235350599-3bb5e205-b5c6-4d3b-92e4-d0fd80fab879.png =128x256)
+
+<img src="https://user-images.githubusercontent.com/29959059/235350599-3bb5e205-b5c6-4d3b-92e4-d0fd80fab879.png" width="256" height="512" />
 
 Application for taking quick sticky notes.
 
