@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/29959059/235364347-eaa17767-a280-42a9-957a-2eddba2328d3.png" />
+<img src="https://user-images.githubusercontent.com/29959059/235466725-8a68e5a1-5587-4505-8070-8a31a4e96761.png" />
 
 Application for taking quick sticky notes.
 
